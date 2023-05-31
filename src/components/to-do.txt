@@ -1,0 +1,47 @@
+<h1>Kutuphane</h1></h1>
+<p>Ekle Oku Guncelle Sil</p>
+
+<ul>
+  <li>Projeye Bootstrapi dahil et</li>
+  > inndex.html e bootstrap cdni ekle
+  <li>
+    1- Yeni eklenecek elemani almak icin form olustur
+    > form icersinden gelen verileri al ve state aktar 
+    > ekle butonuna basildigi anda forma girilen bilgiler ile  beraber yeni obje olustur
+    > olsuturulan objenin degeri: tarih, kitap ismi, id, okundumu?
+    > olusan objeyi kitaplar isminde bir diziye aktar
+    > obje olusturulduktan sonra inputu sifirla 
+  </li>
+  <li>
+    2 - Books Stateinde tutulan kitaplari al ve map methodu ile listele(ekrana bas)
+    > eger state bossa "henuz kitap eklenmedi" yaz
+    > BookCard bilgilerine kitap bilgilerini prop olarak gonder
+    > BookCard bilesenin kitapla ilgili butun ozellikleri goster
+  </li>
+  <li>
+    3- Kitap Silme:
+    > herhangi bir kitabin sil butonuna basildiginda 
+    > calisan fonksiyona silinicek olanin id si gitsn
+    > gelen id yi fonksiona parametre olarak al 
+    > silinecek id ye esit olmayan objeleri al ve bir diziye aktar
+    > olusan diziyi state aktar
+  </li>
+  <li>
+    4 - Kitabi okundu olarak isaretle:
+    > okundu butonuna basilinca calisan fonksiona kitabi gonder
+    > kitabin isRead degerini tersine cevir
+    > dizi icersinde degisecek olan elamani bul
+    > o elemani cikar ve yerine yenisini ekle
+  </li>
+  <li>
+    5 - Duzenleme islemini Yap:
+    > duzenle butonuna tiklandiginda ekrana bir modal ciksin
+    > ve duzenlenicek kitabi app.jse aktarsin (editBook)
+    >  Modalda: kitap ismini degistirmek icin bir input
+    > input her degistiginde editBook degiskenini gunceller
+    > Vazgec butonu > Modali Kapatir
+    > Kaydet butonu > App.jsde bulunan handleEditBook calistirilir
+    > calisan fonksiyon diziden eski elamani cikarir yenisini ekler
+    > kitabi guncellerken 4 gorevdeki adimlari tekrarla
+  </li>
+</ul>
